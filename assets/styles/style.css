@@ -27,6 +27,9 @@ header {
     text-align: left;
 
 }
+.starter > p {
+    color: #16B8F3;
+}
 nav {
     display: flex;
     font-size: 24px;
