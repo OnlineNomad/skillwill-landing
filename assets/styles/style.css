@@ -35,10 +35,15 @@ nav {
     gap: 30px;
 
 }
+/* main */
 main {
     display: flex;
+    justify-content: center;
+}
+.main-centering {
+    display: flex;
     flex-direction: column;
-    
+    width: 85%;
 }
 
-/* Recent Posts Section */
+/* Main --> Recent Posts Section */
