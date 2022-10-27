@@ -1,12 +1,14 @@
 * {
-    background: #0F172A;
-    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    color: #F8FAFC;
     font-family: "Roboto";
 }
 
 /* Header */
 
 header {
+    background: #0F172A;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -37,13 +39,62 @@ nav {
 }
 /* main */
 main {
+    background: #0F172A;
     display: flex;
     justify-content: center;
 }
 .main-centering {
+    margin-top: 90px;
     display: flex;
     flex-direction: column;
     width: 85%;
+    gap: 95px;
 }
 
 /* Main --> Recent Posts Section */
+.recent-project-heading {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin-bottom: 83px;
+}
+h2 {
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.blue {
+    color: #16B8F3;
+}
+.recent-projects {
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+
+}
+.project-card {
+    display: flex;
+    flex-direction: row;
+    background: #1E293B66;
+    align-items: center;
+    padding: 30px;
+    border-radius: 20px;
+    gap: 60px;
+}
+.project-image {
+    width: 12%;
+}
+
+
+
+
+
+
+
+
+footer {
+    background: #0F172A;
+}
